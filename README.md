@@ -1,5 +1,5 @@
 # Wallace-and-Booth-Multiplier
-📌 Project Title:
+
 Design and Implementation of 8-bit Signed Booth and Wallace Tree Multipliers using Verilog HDL on FPGA
 
 1. Functional Specifications
@@ -11,8 +11,6 @@ Design and Implementation of 8-bit Signed Booth and Wallace Tree Multipliers usi
    | Output Bit-width          | 16-bit Product                         |
    | Multiplication Algorithms | 1. Radix-2 Booth Algorithm             |
    |                           | 2. Wallace Tree Multiplier             |
-   | Number System             | two’s Complement                       |
-   | Algorithm Selection       | Mode Select Input                      |
    | Operation Type            | Signed Multiplication                  |
    | Execution Type            | Sequential (Booth), Parallel (Wallace) |
 
@@ -40,9 +38,7 @@ Design and Implementation of 8-bit Signed Booth and Wallace Tree Multipliers usi
    | Iterations Required  | 8 Clock Cycles                |
    | Control Bits Used    | Q₀ and Q₋₁                    |
    | Operations Supported | Add / Subtract / No Operation |
-   | Shift Type           | Arithmetic Right Shift        |
-   | Latency              | n clock cycles                |
-   | Hardware Utilization | Low                           |
+   | Shift Type           | Arithmetic Shift Right        |
 
 4. Wallace Tree Multiplier Specifications
 
@@ -53,9 +49,6 @@ Design and Implementation of 8-bit Signed Booth and Wallace Tree Multipliers usi
    | Compressors Used           | Full Adders (3:2), Half Adders |
    | Addition Method            | Parallel                       |
    | Final Stage Adder          | Ripple Carry Adder             |
-   | Latency                    | 1–2 Clock Cycles               |
-   | Hardware Utilization       | High                           |
-   | Speed                      | High                           |
 
 5. Performance Specifications
 
@@ -77,8 +70,4 @@ Design and Implementation of 8-bit Signed Booth and Wallace Tree Multipliers usi
    e) Cryptographic Units
    f) VLSI Arithmetic Units
 
-
-Overall Architecture
-
-<img width="700" height="300" alt="image" src="https://github.com/user-attachments/assets/18f2e48b-a1d3-4d3f-a4c7-53e045b49567" />
 
